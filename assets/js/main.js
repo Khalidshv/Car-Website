@@ -16,19 +16,30 @@ if(navClose){
     navMenu.classList.remove('show-menu')
 })
 }
-/*=============== REMOVE MENU MOBILE ===============*/
 
-
-/*=============== SWIPER HOME ===============*/ 
-
-
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/*== SWIPER HOME =*/
+const swiperHome = new Swiper('.home__swiper', {
+pagination: {
+el: ".swiper-pagination",
+clickable: true,
+renderBullet: (index, className) => {
+return '<span class="' + className + '">' + String(index + 1).padStart(2, '0') + "</span>";
+},  
+},  
+})  ;
+/*  =============== REMOVE MENU MOBILE ===============*/
+  
+  
+/*  =============== SWIPER HOME ===============*/ 
+  
+  
+/*  =============== CHANGE BACKGROUND HEADER ===============*/
+  
+  
+/*  =============== SHOW SCROLL UP ===============*/ 
+  
+  
+/*  =============== SCROLL SECTIONS ACTIVE LINK ===============*/
+  
+  
+/*  =============== SCROLL REVEAL ANIMATION ===============*/
