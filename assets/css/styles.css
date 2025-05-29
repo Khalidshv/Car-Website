@@ -344,10 +344,44 @@ video {
     color: var(--black-color);
 }
 
-/*=============== BUTTON ===============*/
-
-
 /*=============== ABOUT ===============*/
+.about{
+    background-color: var(--body-second-color);
+}
+
+.about__container{
+    padding-bottom: 3rem;
+    row-gap: 3rem;
+}
+
+.about__title{
+    color: var(--white-color);
+    margin-bottom: 1rem;
+}
+
+.about__title span{
+    color: var(--black-color);
+}
+
+.about__data{
+    text-align: center;
+}
+
+.about__description{
+    margin-bottom: 1.5rem;
+    color: var(--white-color);
+}
+
+.about__video{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    justify-self: center;
+    box-shadow: var(--shadow-img);
+    transform: skew(-12deg);
+    display: grid;
+    overflow: hidden;
+}
 
 
 /*=============== MODELS ===============*/
