@@ -521,6 +521,19 @@ video {
     text-align: center; 
 }
 /*=============== CONTACT ===============*/
+.contact{
+    background-color: var(--body-second-color);
+}
+
+.contact__container{
+    row-gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact__title{
+    color: var(--white-color);
+    margin-bottom: 4rem;
+}
 
 
 /*=============== FOOTER ===============*/
