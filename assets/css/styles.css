@@ -580,6 +580,10 @@ video {
     cursor: pointer;
 }
 
+.contact__img{
+    width: 250px;
+    transform: skew(-7deg);
+}
 /*=============== FOOTER ===============*/
 
 
