@@ -236,7 +236,9 @@ video {
 }
 
 /* Active link */
-
+.active-link::after{
+    width: 60%;
+}
 
 /*=============== HOME ===============*/
 .home{
