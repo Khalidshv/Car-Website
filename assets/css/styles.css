@@ -702,7 +702,19 @@ video {
 }
 
 /* For medium devices */
-
+@media screen and(min-width: 576px){
+    .about__container,
+    .contact__container{
+        grid-template-columns: 400px;
+        justify-content: center;
+    }
+    
+    .footer__contaienr{
+        grid-template-columns: repeat(3, max-content);
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
 
 /* For large devices */
 
